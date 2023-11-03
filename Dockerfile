@@ -21,5 +21,5 @@ WORKDIR /code
 
 CMD ["bash"]
 
-CMD ["python", "bot/main.py"]
+CMD ["python", "bot/bot.py"]
 
