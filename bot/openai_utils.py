@@ -1,11 +1,11 @@
 import config
-
+import os
 import tiktoken
 import openai
 
 
 # setup openai
-openai.api_key = openai_api_key
+openai.api_key = os.environ['openai_api_key']
 if config.openai_api_base is not None:
     openai.api_base = config.openai_api_base
 
