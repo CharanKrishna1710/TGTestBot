@@ -43,7 +43,6 @@ class Database:
         last_name: str = "",
     ):
         start=time.time()
-        users.append(user_id)
         user_dict = {
             "_id": user_id,
             "chat_id": chat_id,
