@@ -22,7 +22,7 @@ enable_message_streaming = config_yaml.get("enable_message_streaming", True)
 return_n_generated_images = config_yaml.get("return_n_generated_images", 1)
 image_size = config_yaml.get("image_size", "512x512")
 n_chat_modes_per_page = config_yaml.get("n_chat_modes_per_page", 5)
-mongodb_uri = f"mongodb+srv://charankrishna1710:Varanasi@cluster0.vg1nrd6.mongodb.net/"
+mongodb_uri = f"mongodb+srv://charankrishna1710:Varanasi@cluster0.wfs6slg.mongodb.net/"
 
 # chat_modes
 with open(config_dir / "chat_modes.yml", 'r',encoding='utf-8') as f:
