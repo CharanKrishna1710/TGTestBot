@@ -9,6 +9,8 @@ RUN \
     python3-venv \
     ffmpeg \
     git \
+    tesseract-ocr \
+    tesseract-ocr-eng \
     ; \
     rm -rf /var/lib/apt/lists/*
 
